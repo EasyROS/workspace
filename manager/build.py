@@ -2,9 +2,10 @@ import os
 
 
 def run(arg):
-    if arg.strip() == "":
-        print 'Build'
-        os.system('')
-    else:
-        print 'Build ' + arg
-        os.system('')
+    print 'Build'
+    os.system('echo ' + arg)
+
+
+def exe(arg1, arg2):
+    print 'Build'
+    os.system('echo ' + arg1 + ' ' + arg2)
