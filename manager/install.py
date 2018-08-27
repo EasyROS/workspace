@@ -18,7 +18,7 @@ def run():
         os.system('rm -rf src')
         os.system('mkdir src')
         os.system('mkdir src/sycu')
-        
+
         clone('EasyROS/ROServer')
         clone('EasyROS/shellservice')
         clone('EasyROS/webservice')
