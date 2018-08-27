@@ -1,0 +1,14 @@
+#!/usr/bin/python
+# -*- coding:utf8 -*-
+
+import sys
+import importlib
+
+
+def run(args):
+    print args[1]
+    manager = importlib.import_module('manager.' + args[1])
+    manager.run(args[2])
+
+
+run(sys.argv)
