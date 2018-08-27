@@ -5,8 +5,8 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 
-def clone(service, dir='src/sycu', remote='https://github.com/'):
-    os.system('cd ' + dir + ' && git clone ' + remote + service + '.git')
+def clone(service, dir, remote='https://github.com/'):
+    os.system('cd src/' + dir + ' && git clone ' + remote + service + '.git')
 
 
 def run():
@@ -17,11 +17,11 @@ def run():
     if safe == 'y':
         os.system('rm -rf src')
         os.system('mkdir src')
-        os.system('mkdir src/sycu')
+        os.system('mkdir src/default')
 
-        clone('EasyROS/ROServer')
-        clone('EasyROS/shellservice')
-        clone('EasyROS/webservice')
+        clone('EasyROS/ROServer', 'default')
+        clone('EasyROS/shellservice', 'default')
+        clone('EasyROS/webservice', 'default')
 
 
 def exe(arg):
