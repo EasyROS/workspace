@@ -11,9 +11,9 @@ def run(args):
     if len(args) == 1:
         print 'options is empty, please add option after the command !'
     elif len(args) == 2:
-        manager.run(args[1])
+        manager.run()
     elif len(args) == 3:
-        manager.exe(args[1], args[2])
+        manager.exe(args[2])
 
 
 run(sys.argv)
