@@ -29,4 +29,4 @@ def run():
 
 def exe(arg):
     logging.info('Install')
-    os.system('echo ' + arg)
+    clone(arg, 'default')
