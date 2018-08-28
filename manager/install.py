@@ -24,6 +24,7 @@ def run():
         clone('EasyROS/ROServer', 'default')
         clone('EasyROS/shellservice', 'default')
         clone('EasyROS/webservice', 'default')
+        clone('EasyROS/env_public', 'default')
 
 
 def exe(arg):
