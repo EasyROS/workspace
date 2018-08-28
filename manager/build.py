@@ -8,4 +8,4 @@ def run():
 
 def exe(arg):
     print 'Build'
-    os.system('echo ' + arg)
+    os.system('catkin build --force-color --profile release ' + arg)
