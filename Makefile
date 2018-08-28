@@ -12,6 +12,6 @@ clean:
 
 novision:
 
-	./workspace build novision
+	./workspace build:novision
 
 
