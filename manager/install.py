@@ -19,6 +19,7 @@ def run():
         os.system('mkdir src')
         os.system('mkdir src/default')
 
+        clone('ros/catkin', ' ')
         clone('EasyROS/ROServer', 'default')
         clone('EasyROS/shellservice', 'default')
         clone('EasyROS/webservice', 'default')
