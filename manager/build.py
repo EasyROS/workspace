@@ -1,9 +1,10 @@
 import os
 
 
-def run():
+def run(arg):
     print 'Build'
-    os.system('catkin build --force-color --profile release')
+    str = arg.split(":", 1)[-1]
+    os.system('catkin build --force-color --profile ' + str)
 
 
 def exe(arg):

@@ -1,13 +1,17 @@
-install:
-
-	./workspace install
-
 make:
 
 	./workspace build
 
-test:
+install:
 
-	./workspace build test
+	./workspace install
+
+clean:
+
+	./workspace clean
+
+novision:
+
+	./workspace build novision
 
 

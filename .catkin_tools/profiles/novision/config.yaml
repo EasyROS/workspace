@@ -1,0 +1,21 @@
+blacklist: []
+build_space: build_nv_release
+catkin_make_args: []
+cmake_args:
+- -DCMAKE_BUILD_TYPE=Release
+- -DCMAKE_CXX_FLAGS=-msse2 -mavx
+- -DBUILD_KID_SIZE_VISION=OFF
+- -DBUILD_ROBOCUP_VIEWER=ON
+devel_layout: linked
+devel_space: devel_nv_release
+extend_path: null
+install: false
+install_space: install_nv_release
+isolate_install: false
+jobs_args: []
+log_space: logs_nv_release
+make_args: []
+source_space: src
+use_env_cache: false
+use_internal_make_jobserver: true
+whitelist: []

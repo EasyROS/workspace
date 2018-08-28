@@ -7,11 +7,11 @@ import importlib
 
 def run(args):
     if len(args) > 1:
-        manager = importlib.import_module('manager.' + args[1])
+        manager = importlib.import_module('manager.' + args[1].split(':', 1)[0])
     if len(args) == 1:
         print 'options is empty, please add option after the command !'
     elif len(args) == 2:
-        manager.run()
+        manager.run(args[1])
     elif len(args) == 3:
         manager.exe(args[2])
 
