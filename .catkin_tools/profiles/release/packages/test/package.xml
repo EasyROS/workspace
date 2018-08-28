@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>test</name>
+    <version>0.0.0</version>
+    <description>
+        The main repository for humanoid kid size league at RoboCup
+    </description>
+
+    <maintainer email="1328788930@qq.com">dean</maintainer>
+    <maintainer email="ls.dean.ch@gmail.com">dean</maintainer>
+
+    <license>MIT</license>
+
+    <author email="1328788930@qq.com">dean</author>
+    <author email="ls.dean.ch@gmail.com">dean</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>ROServer</build_depend>
+
+    <run_depend>ROServer</run_depend>
+
+</package>
