@@ -1,5 +1,5 @@
 default/ROServer
-/home/dean/dean.test/workspace/devel/.private/test/lib/pkgconfig/test.pc /home/dean/dean.test/workspace/devel/lib/pkgconfig/test.pc
-/home/dean/dean.test/workspace/devel/.private/test/lib/test/Test /home/dean/dean.test/workspace/devel/lib/test/Test
-/home/dean/dean.test/workspace/devel/.private/test/share/test/cmake/testConfig-version.cmake /home/dean/dean.test/workspace/devel/share/test/cmake/testConfig-version.cmake
-/home/dean/dean.test/workspace/devel/.private/test/share/test/cmake/testConfig.cmake /home/dean/dean.test/workspace/devel/share/test/cmake/testConfig.cmake
+/home/dean/dean.test/workspace/devel_release/.private/test/lib/pkgconfig/test.pc /home/dean/dean.test/workspace/devel_release/lib/pkgconfig/test.pc
+/home/dean/dean.test/workspace/devel_release/.private/test/lib/test/Test /home/dean/dean.test/workspace/devel_release/lib/test/Test
+/home/dean/dean.test/workspace/devel_release/.private/test/share/test/cmake/testConfig-version.cmake /home/dean/dean.test/workspace/devel_release/share/test/cmake/testConfig-version.cmake
+/home/dean/dean.test/workspace/devel_release/.private/test/share/test/cmake/testConfig.cmake /home/dean/dean.test/workspace/devel_release/share/test/cmake/testConfig.cmake
