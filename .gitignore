@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# self
+*_release
+*_debug
+build*
+devel*
+logs*
+src
