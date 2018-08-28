@@ -12,10 +12,11 @@ def clone(service, dir, remote='https://github.com/'):
 def run():
     logging.info('Install')
     logging.warning('It will be clean and install, please make sure it is safe ?')
-    safe = raw_input('(y/n)')
-    print(safe)
-    if safe == 'y':
-        os.system('rm -rf src')
+    safe = raw_input('( install / clean / other type is cancel )')
+
+    if safe == 'install' or safe == 'clean':
+        if safe == 'clean':
+            os.system('rm -rf src')
         os.system('mkdir src')
         os.system('mkdir src/default')
 
