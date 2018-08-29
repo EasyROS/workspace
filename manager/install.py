@@ -9,7 +9,7 @@ def clone(service, dir, remote='https://github.com/'):
     os.system('cd src/' + dir + ' && git clone ' + remote + service + '.git')
 
 
-def run():
+def run(arg):
     logging.info('Install')
     logging.warning('It will be clean and install, please make sure it is safe ?')
     safe = raw_input('( install / clean / other type is cancel )')

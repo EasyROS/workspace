@@ -1,7 +1,7 @@
 import os
 
 
-def run():
+def run(arg):
     print 'Build'
     os.system('catkin clean --yes --profile release')
 
