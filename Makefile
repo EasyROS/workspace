@@ -14,4 +14,7 @@ novision:
 
 	./workspace build:novision
 
+setup:
+
+	./workspace setup
 
