@@ -18,3 +18,8 @@ setup:
 
 	./workspace setup
 
+cleannv:
+
+	./workspace clean:novision
+
+
