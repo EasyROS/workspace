@@ -22,4 +22,10 @@ cleannv:
 
 	./workspace clean:novision
 
+test:
 
+	./workspace build:test
+	
+cleantest:
+
+	./workspace clean:test
