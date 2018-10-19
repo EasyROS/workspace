@@ -112,3 +112,4 @@ logs*
 src
 .catkin_tools*
 .idea*
+cmake-build-debug
