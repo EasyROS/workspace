@@ -1,6 +1,2 @@
-# workspace
-    all files with here
-## install
-    `./workspace install`
-## build
-    `./workspace build`
+# ezros
+main space in easyros
